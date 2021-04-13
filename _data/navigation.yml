@@ -1,10 +1,10 @@
 # main links
 main:
   - title: "About"
-    url: https://sangteak601.github.io/about/
+    url: /about/
   - title: "Memoir"
-    url: https://sangteak601.github.io/memoir/
+    url: /memoir/
   - title: "Ideas"
-    url: https://sangteak601.github.io/ideas/
+    url: /ideas/
   # - title: "Sitemap"
   #   url: /sitemap/
