@@ -1,12 +1,10 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+    url: https://sangteak601.github.io/about/index
+  - title: "Memoir"
+    url: https://sangteak601.github.io/memoir/
+  - title: "Ideas"
+    url: https://sangteak601.github.io/ideas/
   # - title: "Sitemap"
   #   url: /sitemap/
