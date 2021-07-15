@@ -95,14 +95,14 @@ analytics:
 # Site Author
 author:
   name             : "Sangtaek Lee"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Who am I?"
+  avatar           : "/assets/images/sample.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Who am I ?"
   location         : "Seoul, Korea"
   email            : 
   links:
-    - label: "Email"
+    - label: "sangteak601@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:sangteak601@naver.com"
+      url: "mailto:sangteak601@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -280,3 +280,12 @@ defaults:
       comments: # true
       share: # true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      classes: wide
+

@@ -2,9 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Memoir"
-    url: /memoir/
-  - title: "Ideas"
-    url: /ideas/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Diary"
+    url: /diary/
+  - title: "Posts"
+    url: /posts/

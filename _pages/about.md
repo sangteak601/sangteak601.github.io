@@ -1,20 +1,35 @@
 ---
-title:  "github.io 블로그 시작하기"
-excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
+title:  "About"
+excerpt: "About"
 permalink: /about/
-categories:
-  - Blog
-tags:
-  - Blog
-last_modified_at: 2019-04-13T08:06:00-05:00
+# categories:
+#   - About
+# tags:
+#   - About
+# last_modified_at: 2019-04-13T08:06:00-05:00
 ---
 
-GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
-GitHub Blog 서비스의 이름은 Pages이다.
+## Education
 
-Pages가 다른 블로그 플랫폼 보다 편한 것 같아서 마음에 든다.
-다른 사람들도 같이 많이 사용했으면 좋겠다는 생각이 든다.
+- 2012-03 ~ 2020-02 \| B.E., Mechanical Engineering, Hanyang University, Korea
+- 2009-03 ~ 2012-02 \| English/Chinese, Puil Foreign Language High School, Korea
 
-YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가할 수 있다.
-이 글의 제목은 {{ page.title }}이고
-마지막으로 수정된 시간은 {{ page.last_modified_at }}이다.
+## Experience
+
+- 2020-01 ~ Present \| Research Engineer, LG Electronics Inc.
+- 2015-07 ~ 2016-02 \| Working Holiday in Australia
+
+## Project
+
+### Collaborative Robot(2020-03 ~ Present)
+
+### Teleoperation Device(2020-03 ~ 2020-06)
+
+### Drone Manipulator(2019-03 ~ 2019-06)
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/droneManipulator.jpg" alt="">
+- Controller: Arduino(ATmega2560), ESC
+- Actuator: BLDC motor, Servo motor
+- Sensor: IMU sensor, Geomagnetic sensor, Ultrasonic sensor
+- Remote Controller: Android application
+- Etc: Bluetooth module, Battery
+- Tool: MATLAB, MIT App Inventor
