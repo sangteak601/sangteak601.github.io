@@ -2,11 +2,9 @@
 title:  "About"
 excerpt: "About"
 permalink: /about/
-# categories:
-#   - About
-# tags:
-#   - About
-# last_modified_at: 2019-04-13T08:06:00-05:00
+layout: single
+author_profile: true
+classes: wide
 ---
 
 ## Education
@@ -24,12 +22,16 @@ permalink: /about/
 ### Collaborative Robot(2020-03 ~ Present)
 
 ### Teleoperation Device(2020-03 ~ 2020-06)
-
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/teleoperation.png" alt="">  
+Controller: Arduino, PC(Python)  
+Actuator: Dynamixel servo motor  
+Hardware: made by 3d printer  
+Tool: Creo, Arduino IDE, Visual Studio Code  
 ### Drone Manipulator(2019-03 ~ 2019-06)
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/droneManipulator.jpg" alt="">
-- Controller: Arduino(ATmega2560), ESC
-- Actuator: BLDC motor, Servo motor
-- Sensor: IMU sensor, Geomagnetic sensor, Ultrasonic sensor
-- Remote Controller: Android application
-- Etc: Bluetooth module, Battery
-- Tool: MATLAB, MIT App Inventor
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/droneManipulator.jpg" alt="">  
+Controller: Arduino(ATmega2560), ESC  
+Actuator: BLDC motor, Servo motor  
+Sensor: IMU sensor, Geomagnetic sensor, Ultrasonic sensor  
+Remote Controller: Android application  
+Etc: Bluetooth module, Battery  
+Tool: MATLAB, MIT App Inventor, Arduino IDE  
