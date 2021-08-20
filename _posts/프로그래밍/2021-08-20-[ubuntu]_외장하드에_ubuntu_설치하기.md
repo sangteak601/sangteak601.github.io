@@ -1,6 +1,6 @@
 ---
 title:  "[ubuntu] 외장하드에 ubuntu 설치하기"
-excerpt: "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
+excerpt: "외장하드에 ububtu를 설치하여 사용하는 방법에 대해 정리한다."
 toc: True
 toc_label: "목차"
 toc_sticky: True
