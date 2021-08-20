@@ -21,7 +21,7 @@ last_modified_at: 2021-08-12
 
 ubuntu 홈페이지에 접속하여 Download > Ubuntu Desktop 경로로 들어간다. Download 버튼을 클릭하여 다운로드하면 된다. 버전은 LTS 버전으로 받는 것이 좋다. LTS란 'Long Term Support' 의 약자인데, 장기간동안 지원한다는 것을 의미한다. 현재는 5년 동안 지원한다고 한다.  
 
-//ubuntu 사이트 이미지
+<img src="{{ site.url }}{{ site.baseurl }}/_posts/프로그래밍/2021-08-20-[ubuntu] 외장하드에_ubuntu_설치하기/images/ubuntu_download.jpeg" alt=""> 
 
 2. 부팅 usb 만들기  
 
