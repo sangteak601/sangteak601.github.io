@@ -8,7 +8,7 @@ categories:
   - 프로그래밍
 tags:
   - ubuntu
-last_modified_at: 2021-08-12
+last_modified_at: 2021-08-20
 ---
 
 ## 외장하드에 ubuntu 설치하기
@@ -21,7 +21,7 @@ last_modified_at: 2021-08-12
 
 ubuntu 홈페이지에 접속하여 Download > Ubuntu Desktop 경로로 들어간다. Download 버튼을 클릭하여 다운로드하면 된다. 버전은 LTS 버전으로 받는 것이 좋다. LTS란 'Long Term Support' 의 약자인데, 장기간동안 지원한다는 것을 의미한다. 현재는 5년 동안 지원한다고 한다.  
 
-<img src="{{ site.url }}{{ site.baseurl }}/_posts/프로그래밍/2021-08-20-[ubuntu] 외장하드에_ubuntu_설치하기/images/ubuntu_download.jpeg" alt=""> 
+<!-- <img src="{{ site.url }}{{ site.baseurl }}/_posts/프로그래밍/2021-08-20-[ubuntu] 외장하드에_ubuntu_설치하기/images/ubuntu_download.jpeg" alt="">  -->
 
 2. 부팅 usb 만들기  
 
@@ -48,12 +48,12 @@ FAT32로 USB 드라이브 포맷(USB 데이터 삭제됨.) - USB 포맷
 
 컴퓨터를 재부팅하면서 BIOS로 진입한다. 메인보드 제조사에 따라 BIOS 진입방법은 상이하므로, 각자 본인에게 맞는 방법을 찾아야 한다. 나는 GIGABYTE의 메인보드를 사용하고 있고, 부팅시에 F12 키를 눌러 부팅 디바이스를 선택하는 창으로 진입했다.
 
-//BIOS 사진
+<img src="{{ site.url }}{{ site.baseurl }}/_posts/프로그래밍/2021-08-20-[ubuntu] 외장하드에_ubuntu_설치하기/images/ubuntu_choose_disk.jpg" alt="">
 
 ubuntu를 설치한 usb 드라이브(나의 경우 'SanDisk')를 선택한다. 이전에 ubuntu를 설치하여 사용했었다보니 ubuntu를 삭제했는데도 목록에 여전히 ubuntu가 남아있었다.  
 어쨋든 usb 드라이브를 선택하여 부팅하면 바로 부팅이 되지 않고, 'checking disk' 라고 뜨면서 시간이 조금 소요되었다.
 
-// checking file 사진
+<img src="{{ site.url }}{{ site.baseurl }}/_posts/프로그래밍/2021-08-20-[ubuntu] 외장하드에_ubuntu_설치하기/images/ubuntu_file_check.jpg" alt="">
 
 4. ubuntu 설치하기
 
