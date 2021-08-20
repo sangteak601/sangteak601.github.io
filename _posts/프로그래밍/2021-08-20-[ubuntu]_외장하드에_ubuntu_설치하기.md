@@ -13,17 +13,17 @@ last_modified_at: 2021-08-20
 
 ## 외장하드에 ubuntu 설치하기
 외장하드에 ububtu를 설치하여 사용하는 방법에 대해 정리한다. 기존에도 외장하드에 ubuntu를 설치하여 사용하고 있었으나, 최신버전이 아닌 18.04.5 LTS 버전을 사용 중이었다. 그런데 종종 인터넷이 끊기는 문제가 발생했고, 최신버전으로 업데이트하면 개선되지 않을까? 하는 기대로 최신 LTS 버전인 20.04.2 LTS 버전으로 설치하기로 했다.
+(며칠 사용해본 결과, 여전히 인터넷 끊김 문제는 발생한다. 아직 원인을 정확히 파악하지 못하고 있는 중이다.)
 
 준비물: usb(4GB 이상), 외장하드
 
-## 부팅 usb 만들기
-1. ubuntu 다운로드  
+## ubuntu 다운로드  
 
 ubuntu 홈페이지에 접속하여 Download > Ubuntu Desktop 경로로 들어간다. Download 버튼을 클릭하여 다운로드하면 된다. 버전은 LTS 버전으로 받는 것이 좋다. LTS란 'Long Term Support' 의 약자인데, 장기간동안 지원한다는 것을 의미한다. 현재는 5년 동안 지원한다고 한다.  
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-20-[ubuntu]_외장하드에_ubuntu_설치하기/ubuntu_download.png" alt=""> 
 
-2. 부팅 usb 만들기  
+## 부팅 usb 만들기  
 
 ubuntu로 부팅하기 위한 부팅 usb를 만들어야 한다. 1에서 받은 ubuntu 파일이 약 3GB 정도의 용량이므로, 4GB 이상의 usb가 필요하다.  
 부팅 usb를 만들기 위해서는 'Linuxlive USB creator' 가 필요하다.  
@@ -44,7 +44,7 @@ USB키에 생성된 파일 숨김 - 생성한 파일을 Windows 탐색기에서 
 FAT32로 USB 드라이브 포맷(USB 데이터 삭제됨.) - USB 포맷  
 5단계: 설치 시작
 
-3. usb 드라이브로 부팅
+## usb 드라이브로 부팅
 
 컴퓨터를 재부팅하면서 BIOS로 진입한다. 메인보드 제조사에 따라 BIOS 진입방법은 상이하므로, 각자 본인에게 맞는 방법을 찾아야 한다. 나는 GIGABYTE의 메인보드를 사용하고 있고, 부팅시에 F12 키를 눌러 부팅 디바이스를 선택하는 창으로 진입했다.
 
@@ -55,7 +55,7 @@ ubuntu를 설치한 usb 드라이브(나의 경우 'SanDisk')를 선택한다. �
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-20-[ubuntu]_외장하드에_ubuntu_설치하기/ubuntu_file_check.png" alt="">
 
-4. ubuntu 설치하기
+## ubuntu 설치하기
 
 부팅이 완료되면 아래 사진과 같이 'Ubuntu 체험하기'와 'Ubuntu 설치' 를 선택할 수 있는 화면이 나온다. 바로 설치하기 위해서 'Ubuntu 설치'를 클릭한다.
 
@@ -65,7 +65,8 @@ ubuntu를 설치한 usb 드라이브(나의 경우 'SanDisk')를 선택한다. �
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-20-[ubuntu]_외장하드에_ubuntu_설치하기/ubuntu_install_choose.png" alt="">
 
-설치형식은 기타로 선택하여 직접 설치 위치를 지정할 수 있도록 했다. 많은 사람들이 파티션을 나누어, 데이터 저장공간과 운영체제를 위한 공간을 분리하는 것 같았다. 그러나 나는 중요 데이터가 별로 없고, 이전에는 파티션을 나눠서 설치해봤으니 이번에는 파티션을 따로 나누지 않기로 했다.
+설치형식은 기타로 선택하여 직접 설치 위치를 지정할 수 있도록 했다. 많은 사람들이 파티션을 나누어, 데이터 저장공간과 운영체제를 위한 공간을 분리하는 것 같았다. 그러나 나는 중요 데이터가 별로 없고, 이전에는 파티션을 나눠서 설치해봤으니 이번에는 파티션을 따로 나누지 않기로 했다.  
+(파티션을 나누는 부분에 대해서는 필요한 경우 업데이트하도록 하겠다.)
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-20-[ubuntu]_외장하드에_ubuntu_설치하기/ubuntu_install_choose2.png" alt="">
 
@@ -93,4 +94,4 @@ ubuntu를 설치한 usb 드라이브(나의 경우 'SanDisk')를 선택한다. �
 
 이전 버전에 비해 UI가 훨씬 고급스러워진 것 같은 느낌이다.
 
-이것으로 Ubuntu 설치가 완료되었다. 파티션을 나누는 부분에 대해서는 필요한 경우 업데이트하도록 하겠다.
+이것으로 Ubuntu 설치가 완료되었다. 
