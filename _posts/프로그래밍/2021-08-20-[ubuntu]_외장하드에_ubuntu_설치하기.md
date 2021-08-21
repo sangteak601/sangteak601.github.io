@@ -4,6 +4,7 @@ excerpt: "외장하드에 ububtu를 설치하여 사용하는 방법에 대해 �
 toc: True
 toc_label: "목차"
 toc_sticky: True
+classes: wide
 categories:
   - 프로그래밍
 tags:
