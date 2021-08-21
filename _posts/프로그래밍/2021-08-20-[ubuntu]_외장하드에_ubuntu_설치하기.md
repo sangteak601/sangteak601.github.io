@@ -51,7 +51,7 @@ FAT32로 USB 드라이브 포맷(USB 데이터 삭제됨.) - USB 포맷
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-20-[ubuntu]_외장하드에_ubuntu_설치하기/ubuntu_choose_disk.png" alt="">
 
 ubuntu를 설치한 usb 드라이브(나의 경우 'SanDisk')를 선택한다. 이전에 ubuntu를 설치하여 사용했었다보니 ubuntu를 삭제했는데도 목록에 여전히 ubuntu가 남아있었다.  
-어쨋든 usb 드라이브를 선택하여 부팅하면 바로 부팅이 되지 않고, 'checking disk' 라고 뜨면서 시간이 조금 소요되었다.
+어쨌든 usb 드라이브를 선택하여 부팅하면 바로 부팅이 되지 않고, 'checking disk' 라고 뜨면서 시간이 조금 소요되었다.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-20-[ubuntu]_외장하드에_ubuntu_설치하기/ubuntu_file_check.png" alt="">
 
