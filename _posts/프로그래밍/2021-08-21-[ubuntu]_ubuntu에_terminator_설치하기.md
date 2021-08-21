@@ -4,6 +4,7 @@ excerpt: "ubuntu에서 유용한 프로그램 중 하나인 terminator 설치방
 toc: False
 toc_label: "목차"
 toc_sticky: True
+classes: wide
 categories:
   - 프로그래밍
 tags:
