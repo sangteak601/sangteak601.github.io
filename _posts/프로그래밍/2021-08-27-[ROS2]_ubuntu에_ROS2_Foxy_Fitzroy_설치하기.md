@@ -90,3 +90,9 @@ ros2 run demo_nodes_py listener
 아래와 같이 하나의 터미널에서는 메세지를 보내고, 다른 터미널에서는 메세지를 받는 것을 확인할 수 있다. 이 예제가 정상 동작한다면 설치가 정상적으로 완료된 것이다.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-27-[ROS2]_ubuntu에_ROS2_Foxy_Fitzroy_설치하기/ros2_example.png" alt="image"> 
+
+참고로 설치된 ROS2를 제거하는 방법은 다음과 같다.
+
+```
+sudo apt remove ros-foxy-* && sudo apt autoremove
+```
