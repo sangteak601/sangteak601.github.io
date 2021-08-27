@@ -1,5 +1,5 @@
 ---
-title:  "[ROS] ubuntu에 ROS2 Foxy Fitzroy 설치하기"
+title:  "[ROS2] ubuntu에 ROS2 Foxy Fitzroy 설치하기"
 excerpt: ""
 toc: True
 toc_label: "목차"
@@ -8,12 +8,12 @@ classes: wide
 categories:
   - 프로그래밍
 tags:
-  - ROS
+  - ROS2
 last_modified_at: 2021-08-27
 ---
 
 ## ubuntu에 ROS2 Foxy Fitzroy 설치하기
-ubuntu에 ROS를 설치하는 방법에 대해 정리한다. 현재(2021년 8월 27일 기준)는 ROS2의 Foxy Fitzroy 버전이 가장 최신의 LTS(Long Term Support) 버전이다. Foxy버전이 ROS2의 최초의 LTS 버전이다. LTS라고는 하지만, ROS1(ROS가 정식 명청이지만, ROS2와 구분하기 위해 ROS1이라고 함)에 비하면 지원 하는 기간이 훨씬 짧다. ROS1은 5년인데 비해 ROS2는 3년에 불과하다. ROS1과 ROS2의 최신 LTS 버전을 비교하면 다음과 같다.
+ubuntu에 ROS를 설치하는 방법에 대해 정리한다. 현재(2021년 8월 27일 기준)는 ROS2의 Foxy Fitzroy 버전이 가장 최신의 LTS(Long Term Support) 버전이다. Foxy버전이 ROS2의 최초의 LTS 버전이다. LTS라고는 하지만, ROS1(ROS가 정식 명칭이지만, ROS2와 구분하기 위해 ROS1이라고 함)에 비하면 지원하는 기간이 훨씬 짧다. ROS1은 5년인데 비해 ROS2는 3년에 불과하다. ROS1과 ROS2의 최신 LTS 버전을 비교하면 다음과 같다.
 
 - ROS1 Noetic Ninjemys - 출시일: 2020-05-23, 서비스 종료일: 2025-05
 - ROS2 Foxy Fitzroy - 출시일: 2020-06-05, 서비스 종료일: 2023-05
@@ -43,7 +43,7 @@ sudo apt update && sudo apt install curl gnupg2 lsb-release
 
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
-실행해보니 `sudo: curl: 명령이 업습니다.`라는 오류가 떴다. curl이 설치되어 있지 않아 발생하는 오류이다. 먼저, curl을 설치하기로 했다. curl이 설치되어 있다면 아래 명령어는 생략해도 된다.
+실행해보니 `sudo: curl: 명령이 없습니다.`라는 오류가 떴다. curl이 설치되어 있지 않아 발생하는 오류이다. 먼저, curl을 설치하기로 했다. curl이 설치되어 있다면 아래 명령어는 생략해도 된다.
 
 ```
 sudo apt install curl
@@ -73,7 +73,7 @@ sudo apt install ros-foxy-desktop
 source /opt/ros/foxy/setup.bash
 ```
 
-이제 예제를 실행해보자. 아래 명령을 2개의 터미널 창에 입력한다.
+이제 예제를 실행해보자. 아래 명령어를 2개의 터미널 창을 연 뒤, 각각의 터미널에 입력한다.
 
 터미널 1
 ```
