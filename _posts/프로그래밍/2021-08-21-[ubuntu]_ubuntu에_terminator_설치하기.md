@@ -58,6 +58,7 @@ http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu focal Release' does not hav
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-21-[ubuntu]_ubuntu에_terminator_설치하기/terminator_dist.png" alt="image"> 
 
 ## 유용한 단축키 정리
+terminator 또는 terminal에서 사용 가능한 유용한 단축키를 정리한다.
 
 |단축키|내용|
 |---|---|

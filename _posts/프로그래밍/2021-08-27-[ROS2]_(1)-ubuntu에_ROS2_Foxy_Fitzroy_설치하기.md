@@ -1,5 +1,5 @@
 ---
-title:  "[ROS2] ubuntu에 ROS2 Foxy Fitzroy 설치하기"
+title:  "[ROS2] (1)-ubuntu에 ROS2 Foxy Fitzroy 설치하기"
 excerpt: "ubuntu에 ROS를 설치하는 방법에 대해 정리한다. 현재(2021년 8월 27일 기준)는 ROS2의 Foxy Fitzroy 버전이 가장 최신의 LTS(Long Term Support) 버전이다."
 toc: True
 toc_label: "목차"
@@ -34,7 +34,7 @@ Windows와 mac은 제외하고, ubuntu에서 설치하는 방법에 대해서만
 
 먼저, locale 설정을 확인한다. terminal 창에 `locale`을 입력한다. 나는 아래 사진과 같이 `LANG=kor_KR.UTF-8`로 나오는 것을 확인할 수 있었다. UTF-8 이기만 하면 문제없는 것으로 보인다.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-27-[ROS2]_ubuntu에_ROS2_Foxy_Fitzroy_설치하기/check_locale.png" alt="image"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-27-[ROS2]_(1)-ubuntu에_ROS2_Foxy_Fitzroy_설치하기/check_locale.png" alt="image"> 
 
 다음으로 아래 명령어를 차례로 terminal에 입력해준다. 
 
@@ -89,7 +89,7 @@ ros2 run demo_nodes_py listener
 
 아래와 같이 하나의 터미널에서는 메세지를 보내고, 다른 터미널에서는 메세지를 받는 것을 확인할 수 있다. 이 예제가 정상 동작한다면 설치가 정상적으로 완료된 것이다.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-27-[ROS2]_ubuntu에_ROS2_Foxy_Fitzroy_설치하기/ros2_example.png" alt="image"> 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-27-[ROS2]_(1)-ubuntu에_ROS2_Foxy_Fitzroy_설치하기/ros2_example.png" alt="image"> 
 
 참고로 설치된 ROS2를 제거하는 방법은 다음과 같다.
 
