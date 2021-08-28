@@ -47,19 +47,16 @@ http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu focal Release' does not hav
 
 이것은 레포지토리의 버전이 최신 ubuntu(focal)를 지원하지 않기 때문에 생기는 에러이다. 이를 해결하기 위해서는 아래의 방법을 따른다.
 
-먼저, 웹브라우저에 `ppa gnome terminator` 이라고 검색한 뒤, 나오는 `launchpad.net`에 접속한다. 
-
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-21-[ubuntu]_ubuntu에_terminator_설치하기/terminator_repo.png" alt="image"> 
-
-사진에서 보이는 것처럼 `published in:` 우측의 드롭다운 박스를 보면 'Xenial'이 가장 최신 버전인 것을 알 수 있다.
-
-이제 '소프트웨어 & 업데이트'를 연 뒤, '기타 소프트웨어' 탭에서 `http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu focal` 항목을 클릭한 뒤, 편집에 들어가서 배포판을 focal에서 Xenial로 바꿔준다. 이제 상기의 오류가 더이상 발생하지 않을 것이다.
-
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-21-[ubuntu]_ubuntu에_terminator_설치하기/terminator_dist.png" alt="image"> 
+'소프트웨어 & 업데이트'를 연 뒤, '기타 소프트웨어' 탭에서 `http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu focal` 항목을 클릭한 뒤, 삭제한다.
 
 ## 유용한 단축키 정리
 terminator 또는 terminal에서 사용 가능한 유용한 단축키를 정리한다.
 
 |단축키|내용|
 |---|---|
-|ctrl + shift + c or v| 복사 or 붙여넣기|
+|ctrl + shift + c or v|복사 or 붙여넣기|
+|F11|풀 스크린 모드 <-> 창 모드 전환|
+|ctrl + shift + O|수평으로 터미널 창 나누기|
+|ctrl + shift + E|수직으로 터미널 창 나누기|
+|ctrl + shift + W|현재 터미널 창 삭제(닫기)|
+|ctrl + shift + T|새로운 탭 열기|
