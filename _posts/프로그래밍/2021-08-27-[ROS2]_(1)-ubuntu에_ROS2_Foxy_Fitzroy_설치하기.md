@@ -32,7 +32,7 @@ Windows와 mac은 제외하고, ubuntu에서 설치하는 방법에 대해서만
 
 나는 Debian 패키지로 설치하기로 했다. ROS2 Foxy를 설치하기 위해서는 ubuntu가 20.04(Focal Fossa)버전이어야 한다. 
 
-먼저, locale 설정을 확인한다. terminal 창에 `locale`을 입력한다. 나는 아래 사진과 같이 `LANG=kor_KR.UTF-8`로 나오는 것을 확인할 수 있었다. UTF-8 이기만 하면 문제없는 것으로 보인다.
+먼저, locale 설정을 확인한다. terminal 창에 `locale`을 입력한다. 나는 아래 사진과 같이 `LANG=ko_KR.UTF-8`로 나오는 것을 확인할 수 있었다. UTF-8 이기만 하면 문제없는 것으로 보인다.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-08-27-[ROS2]_(1)-ubuntu에_ROS2_Foxy_Fitzroy_설치하기/check_locale.png" alt="image"> 
 
@@ -43,7 +43,7 @@ sudo apt update && sudo apt install curl gnupg2 lsb-release
 
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
-실행해보니 `sudo: curl: 명령이 없습니다.`라는 오류가 떴다. curl이 설치되어 있지 않아 발생하는 오류이다. 먼저, curl을 설치하기로 했다. curl이 설치되어 있다면 아래 명령어는 생략해도 된다.
+실행해보니 `sudo: curl: 명령이 없습니다.`라는 오류가 떴다. curl이 설치되어 있지 않아 발생하는 오류이다. 먼저, curl을 설치해야 한다. curl이 설치되어 있다면 아래 명령어는 생략해도 된다.
 
 ```
 sudo apt install curl
