@@ -15,7 +15,7 @@ classes: wide
 ## Experience
 
 - 2020-01 ~ Present \| Research Engineer, LG Electronics Inc.
-- 2015-07 ~ 2016-02 \| Working Holiday in Australia
+- 2015-07 ~ 2016-02 \| Working experience in Australia
 
 ## Project
 
