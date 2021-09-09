@@ -266,6 +266,8 @@ compress_html:
   ignore:
     envs: development
 
+# set date format
+date_format: "%Y-%m-%d %H:%M:%S"
 
 # Defaults
 defaults:
@@ -277,11 +279,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: # true
-      comments: true
+      comments: # true
       share: # true
       related: true
       show_date: true
-      date_format: "%Y-%m-%d %H:%M:%S"
   # _pages
   - scope:
       path: ""
