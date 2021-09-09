@@ -1,6 +1,6 @@
 ---
 title:  "[ROS2] (7)-Parameter의 개념"
-excerpt: ""
+excerpt: "parameter는 노드의 설정값과 비슷한 개념으로, 해당 노드에서 사용되는 변수라고 이해할 수 있다. 파라미터는 다양한 데이터 형식으로 저장될 수 있고, 동적으로 재설정될 수 있다."
 toc: True
 toc_label: "목차"
 toc_sticky: True
@@ -43,7 +43,7 @@ ros2 run <package_name> <executable_name> --ros-args --params-file <file_name>
   use_sim_time
 ```
 
-`/teleop_turtle`, `/turtlesim` 2개의 노드가 실행중이고, 각각 3,4개의 파라미터를 갖고 있다. `use_sim_time` 파라미터는 2 노드에 공통으로 포함되어 있다.
+`/teleop_turtle`, `/turtlesim` 2개의 노드가 실행중이고, 각각 3,4개의 파라미터를 갖고 있다. `use_sim_time` 파라미터는 2개 노드에 공통으로 포함되어 있다.
 
 파라미터의 type과 값을 확인하기 위해서는 `ros2 param get <node_name> <parameter_name>` 명령어를 사용한다. `/turtlesim`노드의 `background_b` 파라미터 값을 확인해보면 다음과 같다.
 
