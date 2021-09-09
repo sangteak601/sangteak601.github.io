@@ -13,7 +13,7 @@ last_modified_at: 2021-09-09 21:16:00
 ---
 
 ## workspace 란
-Workspace는 ROS2 패키지를 포함하고 있는 디렉토리를 의미한다. ROS2를 사용하기 위해서는 ROS2 installation workspace를 작업하고자 하는 터미널에 source해야 한다. <a href=https://sangteak601.github.io/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/ROS2-_(2)-ROS2_%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95> [ROS2] (2)-ROS2 환경설정</a>에서 터미널 창마다 입력해야 한다고 했던 `source /opt/ros/foxy/setup.bash` 명령어가 바로 여기서 말하는 ROS2 installation workspace를 source 하는 작업이다.
+Workspace는 ROS2 패키지를 포함하고 있는 디렉토리를 의미한다. ROS2를 사용하기 위해서는 ROS2 installation workspace를 작업하고자 하는 터미널에 source해야 한다. <a href="https://sangteak601.github.io/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/ROS2-_(2)-ROS2_%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95"> [ROS2] (2)-ROS2 환경설정 </a> 에서 터미널 창마다 입력해야 한다고 했던 `source /opt/ros/foxy/setup.bash` 명령어가 바로 여기서 말하는 ROS2 installation workspace를 source 하는 작업이다.
 
 Workspace는 하나만 source 할 수 있는 것은 아니고, 동시에 여러 개의 workspace를 source 할 수 있다. 이 경우, 새롭게 source 되는 workspace를 "overlay"라고 하고, 기존의 workspace를 "underlay"라고 한다. underlay는 overlay의 패키지 dependency를 모두 포함해야 하고, overlay는 underlay의 패키지를 무효화하고 덮어쓴다. 여러 개의 overlay와 underlay가 있을 수도 있다.
 
