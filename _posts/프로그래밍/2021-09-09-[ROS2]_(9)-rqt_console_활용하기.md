@@ -10,6 +10,7 @@ categories:
   - 프로그래밍
 tags:
   - ROS2
+date: 2021-09-09 12:16:00
 last_modified_at: 2021-09-09
 ---
 
