@@ -12,8 +12,12 @@ side:
   - title: "Programming"
     url: /programming/
     children:
+      - title: "ROS2"
+        url: /programming/ros2/
       - title: "C++"
         url: /programming/cpp/
+      - title: "ubuntu"
+        url: /programming/ubuntu/
       - title: "Tools"
         url: /programming/tools/
   - title: "theory"
