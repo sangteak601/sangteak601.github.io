@@ -9,7 +9,7 @@ main:
     
 # side bar
 side:
-  - title: "programming"
+  - title: "Programming"
     url: /programming/
     children:
       - title: "ROS2"
