@@ -16,11 +16,11 @@ side:
         url: /programming/ros2/
       - title: "C++"
         url: /programming/cpp/
-      - title: "ubuntu"
+      - title: "Ubuntu"
         url: /programming/ubuntu/
       - title: "Tools"
         url: /programming/tools/
-  - title: "theory"
+  - title: "Theory"
     url: /theory/
     children:
       - title: "Robotics"
@@ -34,3 +34,5 @@ side:
         url: /personal/memoirs/
       - title: "독서"
         url: /personal/books/
+      - title: "부동산"
+        url: /personal/real-estate/
