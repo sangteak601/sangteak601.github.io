@@ -6,7 +6,7 @@ toc_label: "목차"
 toc_sticky: True
 classes: wide
 categories:
-  - programming
+  - Programming
 tags:
   - ROS2
 last_modified_at: 2021-08-28
