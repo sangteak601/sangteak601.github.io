@@ -7,9 +7,9 @@
         <img src="{{ s.image | relative_url }}"
              alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
       {% endif %}
-      {% if s.title %}<h3>{{ s.title }} 뭐지</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
-      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+      {% if s.title %}<h3>{{ s.title }} test_title</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }} test_text {% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %} test_nav {% endif %}
     {% endfor %}
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
