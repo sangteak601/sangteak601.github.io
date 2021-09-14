@@ -283,6 +283,8 @@ defaults:
       share: # true
       related: true
       show_date: true
+      sidebar:
+        nav: "side"
   # _pages
   - scope:
       path: ""
@@ -291,4 +293,6 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
+      sidebar:
+        nav: "side"
 
