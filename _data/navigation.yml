@@ -6,3 +6,15 @@ main:
     url: /ideas/
   - title: "Posts"
     url: /posts/
+    
+# side bar
+side:
+  - title: "Programming"
+    url: /programming/
+  - title: "SW tools"
+    url: /swtools/
+  - title: "theory"
+    url: /theory/
+  - title: "Personal"
+    url: /personal/
+    
