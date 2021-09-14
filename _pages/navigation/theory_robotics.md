@@ -6,5 +6,5 @@ author_profile: true
 classes: wide
 ---
 
-{% assign posts = site.tags['robotics'] %}
+{% assign posts = site.tags['Robotics'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

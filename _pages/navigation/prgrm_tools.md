@@ -6,5 +6,5 @@ author_profile: true
 classes: wide
 ---
 
-{% assign posts = site.tags['tools'] %}
+{% assign posts = site.tags['Tools'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
