@@ -11,10 +11,22 @@ main:
 side:
   - title: "Programming"
     url: /programming/
-  - title: "SW tools"
-    url: /swtools/
+    children:
+      - title: "C++"
+        url: /cpp/
+      - title: "Tools"
+        url: /tools/
   - title: "theory"
     url: /theory/
+    children:
+      - title: "Robotics"
+        url: /robotics/
+      - title: "Mathematics"
+        url: /mathematics/
   - title: "Personal"
     url: /personal/
-    
+    children:
+      - title: "회고록"
+        url: /memoirs/
+      - title: "독서"
+        url: /books/
