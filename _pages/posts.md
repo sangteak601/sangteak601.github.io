@@ -1,7 +1,7 @@
 ---
 title:  "Posts"
 permalink: /posts/
-layout: categories
+layout: posts
 author_profile: true
 classes: wide
 # categories:
