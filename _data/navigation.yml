@@ -13,20 +13,20 @@ side:
     url: /programming/
     children:
       - title: "C++"
-        url: /cpp/
+        url: /programming/cpp/
       - title: "Tools"
-        url: /tools/
+        url: /programming/tools/
   - title: "theory"
     url: /theory/
     children:
       - title: "Robotics"
-        url: /robotics/
+        url: /theory/robotics/
       - title: "Mathematics"
-        url: /mathematics/
+        url: /theory/mathematics/
   - title: "Personal"
     url: /personal/
     children:
       - title: "회고록"
-        url: /memoirs/
+        url: /personal/memoirs/
       - title: "독서"
-        url: /books/
+        url: /personal/books/
