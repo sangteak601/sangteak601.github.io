@@ -20,7 +20,7 @@ rqt_console은 로그 메시지를 확인할 수 있는 GUI 툴이다. rqt_conso
 rqt_console을 실행하기 위해서는 다음 명령어를 터미널에 입력해준다.
 
 ```
-ros2 run rqt_console rqt_console
+$ ros2 run rqt_console rqt_console
 ```
 
 다음과 같이 rqt_console 창이 뜬다.
@@ -33,7 +33,7 @@ ros2 run rqt_console rqt_console
 먼저, 새로운 터미널 창에서 turtlesim 예제를 실행한다(`ros2 run turtlesim turtlesim_node`). 새로운 터미널 창에서 다음과 같이 토픽을 퍼블리시 한다.
 
 ```
-ros2 topic pub -r 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
+$ ros2 topic pub -r 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
 ```
 
 거북이가 계속 같은 방향으로 이동하고, 벽에 부딪히게 된다. 이제 rqt_console을 보게 되면 로그 메시지가 첫 번째 영역에 출력되는 것을 확인할 수 있다. 메시지가 충분히 출력되고 나면 ctrl + c 로 토픽 퍼블리시를 중단하고, 출력된 메시지를 확인해보자.
@@ -51,6 +51,6 @@ ROS2의 로그 메시지는 다음과 같이 5개의 심각도 레벨을 갖고 
 아래 명령어를 통해 노드를 실행할 때, 기본 로그 메시지 레벨을 설정할 수 있다.
 
 ```
-ros2 run turtlesim turtlesim_node --ros-args --log-level WARN
+$ ros2 run turtlesim turtlesim_node --ros-args --log-level WARN
 ```
 

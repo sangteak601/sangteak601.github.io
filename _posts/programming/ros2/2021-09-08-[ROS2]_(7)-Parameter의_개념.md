@@ -18,12 +18,12 @@ parameter는 노드의 설정값과 비슷한 개념으로, 해당 노드에서 
 이번 포스팅에서 사용할 parameter 관련 명령어를 정리하면 다음과 같다.
 
 ```
-ros2 param list
-ros2 param get <node_name> <parameter_name>
-ros2 param set <node_name> <parameter_name> <value>
-ros2 param dump <node_name>
-ros2 param load <node_name> <parameter_file>
-ros2 run <package_name> <executable_name> --ros-args --params-file <file_name>
+$ ros2 param list
+$ ros2 param get <node_name> <parameter_name>
+$ ros2 param set <node_name> <parameter_name> <value>
+$ ros2 param dump <node_name>
+$ ros2 param load <node_name> <parameter_file>
+$ ros2 run <package_name> <executable_name> --ros-args --params-file <file_name>
 ```
 
 ## parameter 정보 확인
@@ -48,7 +48,7 @@ ros2 run <package_name> <executable_name> --ros-args --params-file <file_name>
 파라미터의 type과 값을 확인하기 위해서는 `ros2 param get <node_name> <parameter_name>` 명령어를 사용한다. `/turtlesim`노드의 `background_b` 파라미터 값을 확인해보면 다음과 같다.
 
 ```
-ros2 param get /turtlesim background_b
+$ ros2 param get /turtlesim background_b
 
 Integer value is: 255
 ```
@@ -59,7 +59,7 @@ Integer value is: 255
 파라미터의 값을 터미널 창을 통해서 변경할 수 있다. `ros2 param set <node_name> <parameter_name> <value>` 를 입력한다. turtlesim 예제의 배경색을 변경해보자.
 
 ```
-ros2 param set /turtlesim background_b 0
+$ ros2 param set /turtlesim background_b 0
 ```
 
 다음 사진과 같이 국방색으로 배경색이 변경된 것을 확인할 수 있다.
@@ -72,7 +72,7 @@ ros2 param set /turtlesim background_b 0
 파라미터 값을 저장해두었다가 다음에 필요할 때 불러와서 사용할 수도 있다. 노드의 현재 파라미터 값을 저장하기 위해서는 `ros2 param dump <node_name>` 명령어를 사용한다. `/turtlesim` 노드의 파라미터를 저장해보자.
 
 ```
-ros2 param dump /turtlesim
+$ ros2 param dump /turtlesim
 ```
 
 workspace 폴더에 turtlesim.yaml 파일이 저장되었다. 
@@ -80,7 +80,7 @@ workspace 폴더에 turtlesim.yaml 파일이 저장되었다.
 이제 저장한 파라미터를 불러와서 다시 적용해보자. 먼저 실행중인 노드를 모두 종료하고 다시 실행한다. 다시 실행하면 배경색이 파란색으로 돌아와 있는 것을 확인할 수 있다. 이제 `ros2 param load <node_name> <parameter_file>` 명령어를 통해 파라미터를 불러와보자.
 
 ```
-ros2 param load /turtlesim ./turtlesim.yaml
+$ ros2 param load /turtlesim ./turtlesim.yaml
 ```
 
 파라미터를 성공적으로 설정했다는 메시지가 출력되고, 배경색이 다시 바뀌어 있는 것을 확인할 수 있다.

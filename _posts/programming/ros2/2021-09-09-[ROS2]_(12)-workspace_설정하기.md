@@ -24,22 +24,22 @@ Workspace는 하나만 source 할 수 있는 것은 아니고, 동시에 여러 
 생성한 폴더로 이동한 뒤, github에서 repo를 복제해온다.
 
 ```
-cd dev_ws/src
-git clone https://github.com/ros/ros_tutorials.git -b foxy-devel
+$ cd dev_ws/src
+$ git clone https://github.com/ros/ros_tutorials.git -b foxy-devel
 ```
 
 이제 `src` 폴더 하위에 `ros_tutorials`라고 하는 폴더가 새로 생겼다. workspace를 빌드하기 전에 먼저 패키지 dependency를 모두 설치해주자. 먼저 `dev_ws`폴더로 이동 후, 설치 명령어를 입력해준다. rosdep가 설치되어 있지 않은 경우, 먼저 설치해야 한다(`sudo apt install python3-rosdep2`, `rosdep update`).
 
 ```
-cd ~dev_ws
-rosdep install -i --from-path src --rosdistro foxy -y
+$ cd ~dev_ws
+$ rosdep install -i --from-path src --rosdistro foxy -y
 ```
 
 이제 아래 명령어를 통해 workspace를 빌드할 수 있다. 먼저, `dev_ws` 폴더로 이동 후, 빌드해야 한다. colcon이 설치되어 있지 않은 경우, 먼저 설치해야 한다(`sudo apt install python3-colcon-common-extensions`).
 
 ```
-cd ~dev_ws
-colcon build
+$ cd ~dev_ws
+$ colcon build
 ```
 
 > `colcon build`에 `--packages-up-to`를 추가하면 전제 workspace가 아닌 원하는 패키지와 dependency만 빌드할 수 있다. 
@@ -52,8 +52,8 @@ overlay를 source 해보자. 여기서는 ROS2 환경이 underlay가 되고, 새
 새로운 터미널 창을 열고, 새로 빌드한 workspace를 source 해보자.
 
 ```
-cd ~/dev_ws
-. install/local_setup.bash
+$ cd ~/dev_ws
+$ . install/local_setup.bash
 ```
 
 `install` 폴더에는 `local_setup.bash` 파일과 `setup.bash` 파일이 있는데, 전자는 overlay의 패키지만 환경에 추가해주는 것이고, 후자는 overlay 패키지 뿐만 아니라 해당 workspace가 빌드된 underlay 환경도 함께 source 해준다. 
