@@ -39,27 +39,27 @@ Windows와 mac은 제외하고, ubuntu에서 설치하는 방법에 대해서만
 다음으로 아래 명령어를 차례로 terminal에 입력해준다. 
 
 ```
-sudo apt update && sudo apt install curl gnupg2 lsb-release
+$ sudo apt update && sudo apt install curl gnupg2 lsb-release
 
-sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
+$ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key  -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
 실행해보니 `sudo: curl: 명령이 없습니다.`라는 오류가 떴다. curl이 설치되어 있지 않아 발생하는 오류이다. 먼저, curl을 설치해야 한다. curl이 설치되어 있다면 아래 명령어는 생략해도 된다.
 
 ```
-sudo apt install curl
+$ sudo apt install curl
 ```
 다시 실행해보니 오류가 뜨지 않았다. 다음으로 아래 명령어를 차례로 입력한다. ROS2 apt 레포지토리를 시스템에 추가하고, 레포지토리를 업데이트 해주는 것이다.
 
 ```
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+$ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
-sudo apt update
+$ sudo apt update
 ```
 
 아래의 명령어를 실행하면 설치가 시작된다. 시간이 오래 걸린다.
 
 ```
-sudo apt install ros-foxy-desktop
+$ sudo apt install ros-foxy-desktop
 ```
 
 긴 기다림 끝에 설치가 완료되었다.
@@ -70,21 +70,21 @@ sudo apt install ros-foxy-desktop
 ROS2 명령어를 사용하기 위해서는 아래의 명령어를 먼저 실행해야 한다. 설정 파일을 읽어온 뒤, 적용하는 것이다.
 
 ```
-source /opt/ros/foxy/setup.bash
+$ source /opt/ros/foxy/setup.bash
 ```
 
 이제 예제를 실행해보자. 아래 명령어를 2개의 터미널 창을 연 뒤, 각각의 터미널에 입력한다.
 
 터미널 1
 ```
-source /opt/ros/foxy/setup.bash
-ros2 run demo_nodes_cpp talker
+$ source /opt/ros/foxy/setup.bash
+$ ros2 run demo_nodes_cpp talker
 ```
 
 터미널2
 ```
-source /opt/ros/foxy/setup.bash
-ros2 run demo_nodes_py listener
+$ source /opt/ros/foxy/setup.bash
+$ ros2 run demo_nodes_py listener
 ```
 
 아래와 같이 하나의 터미널에서는 메세지를 보내고, 다른 터미널에서는 메세지를 받는 것을 확인할 수 있다. 이 예제가 정상 동작한다면 설치가 정상적으로 완료된 것이다.
@@ -94,5 +94,5 @@ ros2 run demo_nodes_py listener
 참고로 설치된 ROS2를 제거하는 방법은 다음과 같다.
 
 ```
-sudo apt remove ros-foxy-* && sudo apt autoremove
+$ sudo apt remove ros-foxy-* && sudo apt autoremove
 ```
