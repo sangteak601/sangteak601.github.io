@@ -1,6 +1,6 @@
 ---
 title:  "[ROS2] (20)-C++ 클래스에서 parameter 사용하기"
-excerpt: "노드를 만들다보면 때로는 런치파일에서 설정할 수 있는 파라미터가 필요할 때가 있다."
+excerpt: "노드를 만들다보면 때로는 파라미터가 필요할 때가 있다."
 toc: True
 toc_label: "목차"
 toc_sticky: True
@@ -14,7 +14,7 @@ last_modified_at: 2021-10-02
 ---
 
 ## 파라미터 사용하기
-노드를 만들다보면 때로는 런치파일에서 설정할 수 있는 파라미터가 필요할 때가 있다. 여기서는 C++ 클래스에서 파라미터를 만든는 방법과 런치 파일에서 파라미터를 설정하는 방법을 알아볼 것이다.
+노드를 만들다보면 때로는 파라미터가 필요할 때가 있다. 여기서는 C++ 클래스에서 파라미터를 만드는 방법과 런치 파일에서 파라미터를 설정하는 방법을 알아볼 것이다.
 
 ## 패키지 만들기
 `dev_ws/src` 폴더에 `cpp_parameters` 라는 패키지를 생성한다.
@@ -140,7 +140,7 @@ $ ros2 run cpp_parameters parameter_node
 새로운 터미널에서 아래 내용을 실행한다.
 
 ```
-cd ~/dev_ws
+$ cd ~/dev_ws
 $ source install/setup.bash
 $ ros2 param list
 ```
@@ -148,7 +148,7 @@ $ ros2 param list
 `my_parameter`가 목록에 나오는 것을 확인할 수 있다. 같은 터미널 창에 아래 내용을 입력해준다.
 
 ```
-ros2 param set /parameter_node my_parameter earth
+$ ros2 param set /parameter_node my_parameter earth
 ```
 
 출력하는 메시지가 `Hello world`에서 `Hello earth`로 바뀐 것을 확인할 수 있다.
@@ -174,7 +174,14 @@ def generate_launch_description():
     ])
 ```
 
-여기서 `parameters=` 를 통해 `my_parameter`에 `earth`라는 값을 할당해주고 있다.
+아래 두 줄은 결과를 콘솔에 출력하기 위함이다.
+
+```py
+output="screen",
+emulate_tty=True,
+```
+
+다음으로 `parameters=` 를 통해 `my_parameter`에 `earth`라는 값을 할당해주고 있다.
 
 `CMakeLists.txt` 파일을 열고, 아래 내용을 추가해준다.
 
