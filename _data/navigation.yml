@@ -32,7 +32,3 @@ side:
     children:
       - title: "회고록"
         url: /personal/memoirs/
-      - title: "독서"
-        url: /personal/books/
-      - title: "부동산"
-        url: /personal/real-estate/
