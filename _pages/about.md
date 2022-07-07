@@ -15,7 +15,6 @@ classes: wide
 ## Experience
 
 - 2020-01 ~ Present \| Research Engineer, LG Electronics Inc.
-- 2015-07 ~ 2016-02 \| Working experience in Australia
 
 ## Project
 
@@ -26,20 +25,20 @@ classes: wide
 
 ### Teleoperation Device(2020-03 ~ 2020-06)
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/teleoperation.png" alt="">  
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/teleoperation.png" alt="">
 
-- Controller: Arduino, PC(Python)  
-- Actuator: Dynamixel servo motor  
-- Hardware: made by 3d printer  
-- Tool: Creo, Arduino IDE, Visual Studio Code  
+- Controller: Arduino, PC(Python)
+- Actuator: Dynamixel servo motor
+- Hardware: made by 3d printer
+- Tool: Creo, Arduino IDE, Visual Studio Code
 
 ### Drone Manipulator(2019-03 ~ 2019-06)
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/droneManipulator.jpg" alt="">
 
-- Controller: Arduino(ATmega2560), ESC  
-- Actuator: BLDC motor, Servo motor  
-- Sensor: IMU sensor, Geomagnetic sensor, Ultrasonic sensor  
-- Remote Controller: Android application  
-- Etc: Bluetooth module, Battery  
-- Tool: MATLAB, MIT App Inventor, Arduino IDE  
+- Controller: Arduino(ATmega2560), ESC
+- Actuator: BLDC motor, Servo motor
+- Sensor: IMU sensor, Geomagnetic sensor, Ultrasonic sensor
+- Remote Controller: Android application
+- Etc: Bluetooth module, Battery
+- Tool: MATLAB, MIT App Inventor, Arduino IDE
