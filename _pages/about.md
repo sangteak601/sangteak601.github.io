@@ -26,7 +26,7 @@ classes: wide
 
 ### Robot operating software(2021-12 ~ 2022.07)
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/robotoperatingsoftware.png" alt="" height="10">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/robotoperatingsoftware.png" alt="" style="max-height:300px;">
 - Tool: C#, Prism framework, WPF, Enterprise arhitecture
 - Role:
   - Design software architecture
@@ -37,7 +37,7 @@ classes: wide
 
 ### Robot-vision system(2021-05 ~ 2021.11)
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/robot_visionsystem.png" alt="" height="250">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/robot_visionsystem.png" alt="" style="max-height:300px;">
 - Robot: UR, LG
 - Camera: Intel Realsense, LG
 - Tool: C++, Python, OpenCV
@@ -51,7 +51,7 @@ classes: wide
 
 ### Collaborative Robot(2020-03 ~ 2021.06)
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/lgcloirobot.png" alt="" height="250">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/lgcloirobot.png" alt="" style="max-height:300px;">
 - Tool: Python, Creo
 - Role:
   - Develop software to test actuators and analyse result data
@@ -62,7 +62,7 @@ classes: wide
 
 ### Teleoperation Device(2020-03 ~ 2020-06)
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/teleoperation.png" alt="" height="250">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/teleoperation.png" alt="" style="max-height:300px;">
 
 - Controller: Arduino, PC(Python)
 - Actuator: Dynamixel servo motor
@@ -76,7 +76,7 @@ classes: wide
 
 ### Drone Manipulator(2019-03 ~ 2019-06)
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/droneManipulator.jpg" alt="" height="250">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/droneManipulator.jpg" alt="" style="max-height:300px;">
 
 - Controller: Arduino(ATmega2560), ESC
 - Actuator: BLDC motor, Servo motor
