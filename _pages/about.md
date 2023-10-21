@@ -26,7 +26,7 @@ classes: wide
 
 ### Robot operating software(2021-12 ~ 2022.07)
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/robotoperatingsoftware.png" alt="" height="250">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/robotoperatingsoftware.png" alt="" height="10">
 - Tool: C#, Prism framework, WPF, Enterprise arhitecture
 - Role:
   - Design software architecture
