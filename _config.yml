@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "Sangtaek Lee"
   avatar           : "/assets/images/sample.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Who am I ?"
+  bio              : ""
   location         : "Seoul, Korea"
   email            : 
   links:
