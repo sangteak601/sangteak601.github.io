@@ -20,7 +20,7 @@ title                    : "Sangtaek Lee"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Sangtaek Lee"
-description              : "Post my profile and ideas."
+description              : "Blog primarily focused on posts related to software development in the field of robotics"
 url                      : "https://sangteak601.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "sangteak601/sangteak601.github.io"
@@ -67,7 +67,7 @@ google:
 google_site_verification :
 bing_site_verification   :
 yandex_site_verification :
-naver_site_verification  :
+naver_site_verification  : "f4974ef2db624e951633fefdca48b44598ecd935"
 
 # Social Sharing
 twitter:
@@ -86,10 +86,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : "G-L3DLX0R87S"
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
