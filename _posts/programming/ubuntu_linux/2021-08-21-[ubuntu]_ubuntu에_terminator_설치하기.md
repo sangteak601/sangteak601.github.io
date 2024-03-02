@@ -1,6 +1,5 @@
 ---
 title:  "[ubuntu] ubuntu에 terminator 설치하기"
-excerpt: "ubuntu에서 유용한 프로그램 중 하나인 terminator 설치방법에 대해 알아본다."
 toc: False
 toc_label: "목차"
 toc_sticky: True

@@ -1,6 +1,5 @@
 ---
 title:  "[Mujoco] Mujoco overview"
-excerpt: ""
 toc: True
 toc_label: "목차"
 toc_sticky: True

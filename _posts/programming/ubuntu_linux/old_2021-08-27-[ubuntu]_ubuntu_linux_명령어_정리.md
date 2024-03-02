@@ -1,6 +1,5 @@
 ---
 title:  "[ubuntu] ubuntu/Linux 명령어 정리"
-excerpt: "ubuntu에서 자주 사용하게 되는 터미널 명령어에 대해 정리한다. ubuntu는 Linux 운영체제의 일종이므로, 대부분은 Linux 명령어라고 할 수 있다."
 toc: True
 toc_label: "목차"
 toc_sticky: True

@@ -1,6 +1,5 @@
 ---
 title:  "[CMake] CMake 사용법"
-excerpt: ""
 toc: True
 toc_label: "목차"
 toc_sticky: True

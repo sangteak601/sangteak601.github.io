@@ -1,6 +1,5 @@
 ---
 title:  "[Make] Make Makefile 사용법"
-excerpt: "컴파일 언어로 프로그램을 작성하게 되면 인터프리터 언어와는 달리 반드시 컴파일 과정을 거쳐야지만 실행 가능한 파일을 생성할 수 있다. Make는 이러한 컴파일 과정을 좀 더 쉽고 빠르게 할 수 있도록 도와주는 도구이다."
 toc: True
 toc_label: "목차"
 toc_sticky: True

@@ -1,6 +1,5 @@
 ---
 title:  "[ubuntu] ubuntu에 VS Code 설치하기"
-excerpt: "프로그래밍을 하기 위해서는 개발 환경을 구성하는 것이 필요하다. 나의 경우, visual studio code를 선호하기 때문에 VS Code로 개발 환경을 구축하기로 했다."
 toc: False
 toc_label: "목차"
 toc_sticky: True

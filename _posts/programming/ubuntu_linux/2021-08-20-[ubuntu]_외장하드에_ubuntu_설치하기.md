@@ -1,6 +1,5 @@
 ---
 title:  "[ubuntu] 외장하드에 ubuntu 설치하기"
-excerpt: "외장하드에 ububtu를 설치하여 사용하는 방법에 대해 정리한다."
 toc: True
 toc_label: "목차"
 toc_sticky: True

@@ -1,6 +1,5 @@
 ---
 title:  "[ubuntu] ubuntu에 sticky notes 설치하기"
-excerpt: "나는 해야할 일들을 관리하고, 잊지 않기 위해서 주로 post-it 형태의 메모장을 사용한다. 이러한 형태의 프로그램인 sticky notes를 ubuntu에 설치하는 방법을 정리한다."
 toc: False
 toc_label: "목차"
 toc_sticky: True

@@ -1,6 +1,5 @@
 ---
 title:  "[ubuntu] ubuntu에서 모니터가 인식되지 않는 문제"
-excerpt: "어제까지 잘 사용했었는데, 오늘 컴퓨터를 켜보니 듀얼 모니터 중 1개는 화면이 아예 나오지 않고, 나머지 1개는 화면은 나오지만 해상도가 바뀌어 있었다."
 toc: True
 toc_label: "목차"
 toc_sticky: True

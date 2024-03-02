@@ -1,6 +1,5 @@
 ---
 title:  "[pre-commit] pre-commit 기능 및 사용법 정리"
-excerpt: "대표적인 버전 컨트롤 시스템인 Git을 사용하다보면 훅(hook)이 필요할 때가 있다. Git 훅은 Git에서 발생하는 특정 이벤트(commit, push 등)에 사용자 지정 스크립트를 실행할 수 있게 하는 기능이다."
 toc: True
 toc_label: "목차"
 toc_sticky: True

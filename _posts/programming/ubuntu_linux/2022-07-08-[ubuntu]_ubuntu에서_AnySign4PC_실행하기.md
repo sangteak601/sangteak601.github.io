@@ -1,6 +1,5 @@
 ---
 title:  "[ubuntu] ubuntu에서 AnySign4PC 실행하기"
-excerpt: "국내 공공기관 웹사이트에 접속하다 보면 AnySign4PC를 설치해야 하는 경우가 종종 있다."
 toc: True
 toc_label: "목차"
 toc_sticky: True
