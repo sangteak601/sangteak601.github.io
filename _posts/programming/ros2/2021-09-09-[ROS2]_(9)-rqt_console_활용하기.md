@@ -1,7 +1,5 @@
 ---
 title:  "[ROS2] (9)-rqt_console 활용하기"
-excerpt: "rqt_console은 로그 메시지를 확인할 수 있는 GUI 툴이다. rqt_console을 이용하면 로그 메시지를 더 정돈된 형태로 확인할 수 있고, 메시지들을 저장하고 불러올 수도 있다.
-"
 toc: True
 toc_label: "목차"
 toc_sticky: True

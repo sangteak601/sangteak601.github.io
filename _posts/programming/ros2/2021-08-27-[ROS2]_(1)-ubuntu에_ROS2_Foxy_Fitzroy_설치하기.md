@@ -1,6 +1,5 @@
 ---
 title:  "[ROS2] (1)-ubuntu에 ROS2 Foxy Fitzroy 설치하기"
-excerpt: "ubuntu에 ROS를 설치하는 방법에 대해 정리한다. 현재(2021년 8월 27일 기준)는 ROS2의 Foxy Fitzroy 버전이 가장 최신의 LTS(Long Term Support) 버전이다."
 toc: True
 toc_label: "목차"
 toc_sticky: True

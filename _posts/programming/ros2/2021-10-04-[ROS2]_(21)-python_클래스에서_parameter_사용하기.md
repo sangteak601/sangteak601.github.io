@@ -1,6 +1,5 @@
 ---
 title:  "[ROS2] (21)-Python 클래스에서 parameter 사용하기"
-excerpt: "이번 포스팅에서는 python 클래스 내에서 파라미터를 정의하고 설정하는 방법에 대해 알아볼 것이다."
 toc: True
 toc_label: "목차"
 toc_sticky: True

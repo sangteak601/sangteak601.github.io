@@ -1,6 +1,5 @@
 ---
 title:  "[ROS2] (12)-Workspace 설정하기"
-excerpt: "Workspace는 ROS2 패키지를 포함하고 있는 디렉토리를 의미한다. ROS2를 사용하기 위해서는 ROS2 installation workspace를 작업하고자 하는 터미널에 source해야 한다. "
 toc: True
 toc_label: "목차"
 toc_sticky: True

@@ -1,6 +1,5 @@
 ---
 title:  "[ROS2] (3)-turtlesim 예제"
-excerpt: "turtlesim 예제를 통해 ROS2가 어떠한 방식으로 동작하는지, ROS2를 활용해서 어떤 일들을 할 수 있는지를 느껴보기로 한다. 해당 예제에 사용된 명령어 및 개념들은 이후에 상술하기로 한다."
 toc: True
 toc_label: "목차"
 toc_sticky: True

@@ -1,6 +1,5 @@
 ---
 title:  "[ROS2] (7)-Parameter의 개념"
-excerpt: "parameter는 노드의 설정값과 비슷한 개념으로, 해당 노드에서 사용되는 변수라고 이해할 수 있다. 파라미터는 다양한 데이터 형식으로 저장될 수 있고, 동적으로 재설정될 수 있다."
 toc: True
 toc_label: "목차"
 toc_sticky: True

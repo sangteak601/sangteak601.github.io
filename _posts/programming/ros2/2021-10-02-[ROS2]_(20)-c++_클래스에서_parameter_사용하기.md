@@ -1,6 +1,5 @@
 ---
 title:  "[ROS2] (20)-C++ 클래스에서 parameter 사용하기"
-excerpt: "노드를 만들다보면 때로는 파라미터가 필요할 때가 있다."
 toc: True
 toc_label: "목차"
 toc_sticky: True
