@@ -24,6 +24,8 @@ last_modified_at: 2021-07-16
 오른쪽 텍스트 정렬
 {: .text-right}
 
+# 이모지
+https://en.wikibooks.org/wiki/Unicode/List_of_useful_symbols
 
 # 이미지
 이미지 중앙
@@ -38,6 +40,16 @@ last_modified_at: 2021-07-16
 풀 사이즈 이미지
 ![full](/assets/images/filename.jpg)
 {: .full}
+
+![styled-image](/assets/images/pixel_tracker_logo_80px.png "This is some hover text"){: .align-center style="width: 5%;"}
+
+![styled-image](/assets/images/pixel_tracker_logo_80px.png "This is some hover text"){: .align-center style="width: 10%;"}
+Some custom styled caption with a [_link_](#via-markdown).
+{: .align-caption}
+
+[![styled-image](/assets/images/pixel_tracker_logo_80px.png "This is some hover text"){: .align-center style="width: 10%;"}](/assets/images/pixel_tracker_logo_80px.png "Title shown in gallery view")
+Some custom styled caption with a [_link_](#via-markdown).
+{: .align-caption}
 
 # 노티스 박스
 Default
